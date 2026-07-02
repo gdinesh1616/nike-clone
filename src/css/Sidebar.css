@@ -1,0 +1,26 @@
+.sidebar {
+    min-width:160px;
+    height:100vh;
+    padding:20px;
+    position: sticky;
+    top:120px;
+    flex-shrink:0;
+}
+
+.sidebar label{
+    display: inline;
+}
+.filter-option {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    font-size:1.2rem;
+}
+.sidebar button{
+    background-color: black;
+    padding: 10px 20px;
+    color:white;
+    border:none;
+    border-radius:10px;
+    margin:10px;
+}

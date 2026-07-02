@@ -1,0 +1,85 @@
+@import '../index.css';
+
+
+.header{
+    width:100%;
+    min-height:fit-content;
+    margin-bottom: 10px;
+}
+.header-top {
+    background-color: var(--bg-color);
+    padding:10px;
+    display:flex;
+    justify-content:end;
+    gap:20px;
+}
+.header-top a:hover{
+    cursor:pointer
+}
+.navbar-logo img{
+    width:70px;
+    height:25px;
+}
+.navbar {
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.navbar-actions a{
+    margin:10px;
+    cursor: pointer;
+    padding:10px
+}
+.navbar-actions a:hover{
+    margin:10px;
+    cursor: pointer;
+    background-color: rgba(167, 167, 167, 0.372);
+    border-radius: 100%;
+    
+}
+.navbar-menu h3{
+    display:inline;
+    margin-right:20px;
+}
+.navbar-offer{
+    background-color: var(--bg-color);
+    padding:10px;
+    display:flex;
+    justify-content: center;
+}
+.navbar-offer h4{
+    margin:0;
+}
+.profile {
+    width:fit-content;
+    height: fit-content;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.profile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.profile-menu p {
+  margin: 8px 0;
+}
+
+.profile-menu button {
+  width: 100%;
+  margin-top: 10px;
+  color:white;
+  background-color: black;
+  border-radius:16px;
+  padding:10px 20px;
+
+}

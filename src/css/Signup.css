@@ -1,0 +1,61 @@
+.signup-form{
+    border-radius:16px;
+    box-shadow: 5px 5px 15px black;
+    padding:20px;
+    width:fit-content;
+    height:fit-content
+}
+.signup-form input{
+    padding:5px;
+    border-radius:16px;
+    border:none;
+    border:1px solid rgb(87, 87, 87);
+}
+.signup-form button{
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius:16px;
+    padding:10px;
+    display: block;
+    margin-top:10px;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+}
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  color:white;
+  background-color: black;
+  border-radius:16px;
+  padding:10px 20px;
+}
+.form-input{
+  width:100%;
+  border:none;
+  padding:10px 5px;
+  border:1px solid grey;
+  border-radius: 16px;;
+}
+.to-back-btn {
+  background-color: white;
+  border:none;
+}
+.to-back-btn:hover {
+  background-color: rgba(164, 164, 164, 0.489);
+  border-radius: 100%;
+}
