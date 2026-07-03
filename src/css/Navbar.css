@@ -26,6 +26,10 @@
     justify-content: space-between;
     position: sticky;
 }
+.navbar-actions{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .navbar-actions a{
     margin:10px;
     cursor: pointer;
@@ -38,9 +42,13 @@
     border-radius: 100%;
     
 }
+.navbar-menu{
+        margin-top: 10px;
+
+}
 .navbar-menu h3{
     display:inline;
-    margin-right:20px;
+    margin-right:10px;
 }
 .navbar-offer{
     background-color: var(--bg-color);
@@ -81,5 +89,32 @@
   background-color: black;
   border-radius:16px;
   padding:10px 20px;
+
+}
+.search-input-div{
+    padding: 10px;
+    max-width: fit-content;
+}
+.search-input{
+  width:100%;
+  border:none;
+  padding:10px 5px;
+  border:1px solid grey;
+  border-radius: 16px;;
+}
+@media(max-width:550px){
+    .search-input{
+        width:90%;
+    }
+}
+@media (max-width:550px) {
+    .navbar-menu {
+        display:none;
+    }
+    .navbar-actions a,Link{
+    cursor: pointer;
+    padding:10px;
+    margin:0;
+    }
 
 }

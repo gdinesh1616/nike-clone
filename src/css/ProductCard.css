@@ -1,6 +1,7 @@
 .product-card {
     margin-top:50px;
     padding:10px;
+    display:flex;
     
 }
 .product-card img{
@@ -12,6 +13,8 @@
     margin:5px 0;
 }
 .product-card-info h3{
+
+    word-wrap: break-word;
     margin:4px 0;
 }
 .favourite-button{

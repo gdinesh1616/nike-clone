@@ -6,16 +6,27 @@ import Sidebar from "../components/Sidebar";
 import '../css/Homepage.css'
 
 export default function Homepage() {
-    const [showLogin,setShowLogin] = useState(true);
+
+    const [showSidebar,setShowSidebar] = useState(false);
+    const handleClick = ()=>{
+        if(showSidebar){
+                    setShowSidebar(false);
+                    return;
+
+        }
+        setShowSidebar(true);
+    }
     return (
         <>
             <Navbar></Navbar>
+            <button class="show-filters-btn" onClick={handleClick}>Show Filters</button>
             <div className="content">
-                <Sidebar></Sidebar>
+                {showSidebar?<Sidebar></Sidebar>:""}
+                
                 <AllProducts></AllProducts>
             </div>
 
-
+            
         </>
     )
 }

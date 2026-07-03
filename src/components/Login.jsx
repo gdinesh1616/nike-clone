@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../css/Login.css"
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { setLoginStatus, setShowlogin, setUserInfo } from "../features/AuthenticationSlice";
+import { setLoginStatus, setShowlogin, setShowsignup, setUserInfo } from "../features/AuthenticationSlice";
 import { setIsFavourites } from "../features/FavouriteSlice";
 import { setInCart } from "../features/CartSlice";
 
@@ -13,6 +13,7 @@ const Login = () => {
         email:"",
         password:""
     });
+
     const handleLoginCloseClick = ()=>{
       dispatch(setShowlogin(false));
     }
@@ -23,6 +24,10 @@ const Login = () => {
     })
     }
 
+    const handleClick = ()=>{
+        dispatch(setShowlogin(false))
+        dispatch(setShowsignup(true))
+    }
     const handleSubmit = async (e)=>{
         e.preventDefault();
 
@@ -64,7 +69,7 @@ const Login = () => {
                                 <h3>Enter Your Password</h3>
                                 <input name="password" type="password" onChange={handleChange} value={formData.password} class="form-input" required></input>
                                 <button type="submit" class="submit-btn">Submit</button>
-                                <p>Don't have an account? <a>Register here</a></p>
+                                <p>Don't have an account? <a onClick={handleClick} style={{cursor:"pointer"}}>Register here</a></p>
                             </form>
                 </div>
                 </div>

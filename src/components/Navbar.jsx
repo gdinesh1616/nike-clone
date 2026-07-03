@@ -5,6 +5,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { clearCart } from '../features/CartSlice';
 import { clearFavourites } from '../features/FavouriteSlice';
 import { useState } from 'react';
+import { setShowSearchBar } from '../features/FilterSlice';
+import Search from './Search';
 
 function Navbar() {
     const dispatch = useDispatch();
@@ -14,6 +16,7 @@ function Navbar() {
 
     const user = useSelector((store)=>store.authentication.isLoggedIn)
     const userInfo = useSelector((store)=>store.authentication.userInfo)
+    const searchBar = useSelector((store)=>store.filters.showSearchBar)
     const handleLoginClick = ()=>{
         dispatch(setShowlogin(true));
     }
@@ -25,10 +28,16 @@ function Navbar() {
         dispatch(clearCart());
         dispatch(logout());
         dispatch(clearFavourites());
-        console.log("loggedout")
-
     }
 
+    const handleSearchClick = ()=>{
+        if(searchBar){
+                    dispatch(setShowSearchBar(false));
+                    return;
+
+        }
+        dispatch(setShowSearchBar(true));
+    }
 
     return(
         <>
@@ -73,8 +82,12 @@ function Navbar() {
                         <h3>Kids</h3>
                         <h3>Jordan</h3>
                     </div>
+                    <div className="search-input-div"    style={{
+        display: searchBar ? "inline" : "none",
+    }}><Search/></div>
                     <div className="navbar-actions">
-                        <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a onClick={handleSearchClick}>
+                            <i class="fa-solid fa-magnifying-glass"></i></a>
                         <Link to="/favourites"><i class="fa-regular fa-heart"></i></Link>
                         <Link to="/cart"><i class="fa-solid fa-cart-arrow-down"></i></Link>
                     </div>
