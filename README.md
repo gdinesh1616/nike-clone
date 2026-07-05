@@ -1,16 +1,51 @@
-# React + Vite
+# Nike Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation Guide
 
-Currently, two official plugins are available:
+Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+git clone <repository-url>
+cd nike-clone
+```
 
-## React Compiler
+### 1. Start the JSON Server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install the dependencies:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install JSON Server (if it's not already included in the project):
+
+```bash
+npm install json-server
+```
+
+Start the JSON Server:
+
+```bash
+npx json-server db.json
+```
+
+> If your React app uses port 5173, you can run JSON Server on another port:
+
+```bash
+npx json-server db.json --port 5000
+```
+
+### 2. Start the Frontend
+
+Open a new terminal:
+
+```bash
+cd nike-clone
+npm install
+npm run dev
+```
+
+The application will be available at:
+
+- Frontend: `http://localhost:5173`
+- JSON Server: `http://localhost:3000` (or `http://localhost:5000` if you changed the port)
