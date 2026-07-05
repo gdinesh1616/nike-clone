@@ -17,23 +17,12 @@ Install the dependencies:
 npm install
 ```
 
-Install JSON Server (if it's not already included in the project):
-
-```bash
-npm install json-server
-```
-
 Start the JSON Server:
 
 ```bash
 npx json-server db.json
 ```
 
-> If your React app uses port 5173, you can run JSON Server on another port:
-
-```bash
-npx json-server db.json --port 5000
-```
 
 ### 2. Start the Frontend
 
@@ -48,4 +37,4 @@ npm run dev
 The application will be available at:
 
 - Frontend: `http://localhost:5173`
-- JSON Server: `http://localhost:3000` (or `http://localhost:5000` if you changed the port)
+- JSON Server: `http://localhost:3000` 
