@@ -5,7 +5,7 @@
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/gdinesh1616/nike-clone.git
 cd nike-clone
 ```
 
