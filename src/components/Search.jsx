@@ -14,7 +14,8 @@ const Search = () => {
             [e.target.name]:e.target.value
         })
         const filteredProducts = allProducts.filter((product) =>
-            product.name.toLowerCase().includes(e.target.value.toLowerCase())
+          product.name.toLowerCase().includes(e.target.value.toLowerCase()) ||
+            product.description.toLowerCase().includes(e.target.value.toLowerCase())
         );
         let ids = filteredProducts.map((product)=>product.id)
         if(ids.length === allProducts.length){

@@ -1,0 +1,228 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "type": "shoes",
+      "name": "Nike Downshifter 14",
+      "description": "Men's Road Running Shoes",
+      "price": 4899,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IB1895-700_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "2",
+      "type": "shoes",
+      "name": "Nike Pegasus 42",
+      "description": "Men's Road Running Shoes",
+      "price": 12995,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IB1873-102_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "3",
+      "type": "shoes",
+      "name": "Nike Vomero 18",
+      "description": "Men's Road Running Shoes (wide)",
+      "price": 13295,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF0514-002_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "4",
+      "type": "shoes",
+      "name": "Nike Revolution 8 EasyOn",
+      "description": "Men's Road Running Shoes",
+      "price": 3866,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HQ2414-100_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "5",
+      "type": "shoes",
+      "name": "Nike Quest 6",
+      "description": "Men's Road Running Shoes",
+      "price": 5676,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-FD6033-110_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "6",
+      "type": "T-shirts",
+      "name": "Jordan Flight",
+      "description": "Men's Oversized Graphic T-shirt",
+      "price": 1866,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF3133-010_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "7",
+      "type": "T-shirts",
+      "name": "Nike Sportwear",
+      "description": "Men's T-shirt",
+      "price": 2291,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IH1122-328_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "8",
+      "type": "T-shirts",
+      "name": "Nike Sportwear",
+      "description": "Men's T-shirt",
+      "price": 2291,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IH1122-709_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "9",
+      "type": "shorts",
+      "name": "Nike DNA",
+      "description": "Basketball shorts",
+      "price": 3455,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-FV4934-065_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "10",
+      "type": "shorts",
+      "name": "Nike Sportwear Club",
+      "description": "Men's Sports Shorts",
+      "price": 4496,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF2800-382_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "11",
+      "type": "shorts",
+      "name": "Nike Challenger",
+      "description": "Men's lined Running Shorts",
+      "price": 1899,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF9488-641_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "12",
+      "type": "shorts",
+      "name": "Nike",
+      "description": "Men's 18cm(approx) Training Shorts",
+      "price": 3499,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF2178-084_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "13",
+      "type": "jacket",
+      "name": "Nike Swift",
+      "description": "Women's Repel Running Jacket",
+      "price": 6495,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IM9481-502_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "14",
+      "type": "jacket",
+      "name": "Nike Sportswear",
+      "description": "Women's Shrunken Tracksuit Jacket",
+      "price": 4995,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF0217-103_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "15",
+      "type": "jacket",
+      "name": "Nike ACG Smith Summit",
+      "description": "Men's UV Jacket",
+      "price": 11696,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HV0599-368_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "16",
+      "type": "jacket",
+      "name": "Nike Sportswear",
+      "description": "Women's Oversized Lightweight Ripstop Jacket",
+      "price": 4295,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF0588-407_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "17",
+      "type": "jacket",
+      "name": "England Energy",
+      "description": "Nike England Energy  Woven Jacket",
+      "price": 7295,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IH1874-451_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "18",
+      "type": "jacket",
+      "name": "Nike Stride",
+      "description": "Men's Repel Running Jacket",
+      "price": 6396,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-IF2368-455_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "19",
+      "type": "caps",
+      "name": "Nike Club",
+      "description": "Unstructured Futura Wash Cap",
+      "price": 897,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-FB5368-480_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "20",
+      "type": "caps",
+      "name": "Nike Club",
+      "description": "Unstructured Denim Cap",
+      "price": 1497,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HF0383-419_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "21",
+      "type": "caps",
+      "name": "Nike Dri-FIT ADV Fly",
+      "description": "Unstructured AeroBill AeroAdapt Cap",
+      "price": 2295,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-FJ0736-010_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "22",
+      "type": "caps",
+      "name": "Jordan Rise",
+      "description": "Structured Metal Jumpman Hat",
+      "price": 1195,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HM5750-100_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "23",
+      "type": "caps",
+      "name": "Jordan Club",
+      "description": "Nike Jordan Club Unstructured Curved-Bill Hat",
+      "price": 1195,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HQ1963-010_1.jpg?rnd=20200526195200&tr=w-900"
+    },
+    {
+      "id": "24",
+      "type": "caps",
+      "name": "Nike Club",
+      "description": "Unstructured Denim Cap",
+      "price": 1995,
+      "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/d/ad22b92Nike-HF0383-429_1.jpg?rnd=20200526195200&tr=w-900"
+    }
+  ],
+  "users": [
+    {
+      "id": "1001",
+      "userName": "Dinesh",
+      "password": "nikeclone",
+      "favourites": [
+        "1",
+        "2"
+      ],
+      "cart": [
+        "3"
+      ],
+      "emailId": "gdinesh@gmail.com"
+    },
+    {
+      "emailId": "gdinesh1616@gmail.com",
+      "password": "12345t",
+      "username": "dinesh",
+      "id": "LXosddcsMTs",
+      "favourites": [
+        "3",
+        "6",
+        "5"
+      ],
+      "cart": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { setLoginStatus, setShowlogin, setShowsignup, setUserInfo } from "../features/AuthenticationSlice";
 import { setIsFavourites } from "../features/FavouriteSlice";
 import { setInCart } from "../features/CartSlice";
+import { toast } from "react-toastify"
+
 
 const Login = () => {
     const dispatch = useDispatch();
@@ -30,30 +32,35 @@ const Login = () => {
     }
     const handleSubmit = async (e)=>{
         e.preventDefault();
+        try{
+                const response = await axios.get(`http://localhost:3000/users?emailId=${formData.email}`)
 
-        const response = await axios.get(`http://localhost:3000/users?emailId=${formData.email}`)
+                const user = response.data[0];
 
-        const user = response.data[0];
+                if(!user){
+                    setFormData({email:"",password:""})
+                    toast.error("User doesn't exist")
+                    return
+                }
 
-        if(!user){
-            setFormData({email:"",password:""})
-            alert("User doesn't exist")
-            return
+                if(user.password === formData.password){
+                    dispatch(setShowlogin(false));
+                    dispatch(setLoginStatus(true));
+                    dispatch(setIsFavourites(user.favourites))
+                    dispatch(setInCart(user.cart));
+                    dispatch(setUserInfo({username:user.username,emailId:user.emailId,userId:user.id}))
+
+                } else{
+                    setFormData({...formData,
+                        password:""
+                    })
+                    toast.error("Wrong password");
+                }
+        }catch(e){
+            toast.error(e.message);
         }
 
-        if(user.password === formData.password){
-            dispatch(setShowlogin(false));
-            dispatch(setLoginStatus(true));
-            dispatch(setIsFavourites(user.favourites))
-            dispatch(setInCart(user.cart));
-            dispatch(setUserInfo({username:user.username,emailId:user.emailId,userId:user.id}))
 
-        } else{
-            setFormData({...formData,
-                password:""
-            })
-            alert("Wrong password");
-        }
     }
 
 
